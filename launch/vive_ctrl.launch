@@ -4,7 +4,7 @@
   <rosparam param="/vive/world_offset">[0, 0, 0]</rosparam>
   <rosparam param="/vive/world_yaw">0.0</rosparam>
 
-  <node name="vive_ctrl" pkg="vive_ros" type="vive_ctrl" launch-prefix="$(env HOME)/.steam/ubuntu12_32/steam-runtime/run.sh" output="screen" required="true"/>
+  <node name="vive_ctrl" pkg="vive_ros" type="vive_ctrl" launch-prefix="$(env HOME)/.steam/steam/ubuntu12_32/steam-runtime/run.sh" output="screen" required="true"/>
 
 </launch>
 
